@@ -1,0 +1,94 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 50%;
+    margin: 0px auto;
+    display: flex;
+    justify-content: center;
+}
+.row{
+    border: 1px solid black;
+    display: flex;
+    flex-wrap: wrap;
+    border-radius: 25px;
+    margin-top: 50px;
+}
+label{
+    border-top-left-radius: 25px;
+    border-bottom-left-radius: 25px;
+    border: 1px solid black;
+    width: 100px;
+    
+    color: white;
+    background-color: black;
+    height: 36px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+input{
+    text-align: center;
+    width: 200px;
+}
+button{
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+    width: 100px;
+    color: white;
+    background-color: grey;
+}
+button:hover{
+    transform: scale(1.1);
+}
+.container-title{
+    width: 20%;
+    margin: 0px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60px;
+}
+.uList{
+   
+    width: 50%;
+    height: 50px;
+    margin: 0px auto;
+   text-align: center;
+}
+ul{
+    list-style-type: none;
+}
+.uList ul li{
+    background-color: black;
+    color: white;
+    height: 50px;
+    border-radius: 20px;
+    border: 3px solid gray;
+    margin: 25px auto;
+    font-size: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.uList ul li:hover{
+    transform: scale(1.1);
+    color: black;
+    background-color: gray;
+    border-color: black;
+}
+.uList ul li span{
+    background-color: blue;
+    width: 100px;
+    height: 47px;
+   border-radius: 17px;
+   border: 1px solid gray;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+.uList ul li span i{
+    font-size: 50px;
+}
